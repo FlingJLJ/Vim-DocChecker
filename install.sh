@@ -1,0 +1,1 @@
+cp ./plugin/doc-checker.vim ~/.vim/plugin/doc-checker.vim
