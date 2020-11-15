@@ -3,6 +3,5 @@ if &filetype ==# '' || &filetype ==# 'txt' || &filetype ==# 'md'
     function! CorrectWord()
         normal! mm[s1z=`m
     endfunction
-    command! Dc call: CorrectWord()
+    nnoremap <leader>c :call CorrectWord()<cr>
 endif
-
