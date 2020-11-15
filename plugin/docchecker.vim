@@ -3,6 +3,6 @@ if &filetype ==# '' || &filetype ==# 'txt' || &filetype ==# 'md'
     function! CorrectWord()
         normal! mm[s1z=`m
     endfunction
-    command! dc call: CorrectWord()
+    command! Dc call: CorrectWord()
 endif
 
